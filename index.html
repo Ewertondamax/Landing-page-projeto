@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title><link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,900&family=Open+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body>
+
+    <input id="close-menu" class="close-menu" type="checkbox" aria-label="close menu" role="button">
+    <label class="close-menu-label" for="close-menu" tittle="close menu">
+
+    </label>
+   <aside class="menu white-bg">
+    <div class="main-content menu-content">
+     <h1 onclick="getElementById('close-menu').checked = false;">
+           <a href="#home">LOGOMAX</a></h1>
+
+       <nav>
+         <UL onclick="getElementById('close-menu').checked = false;">
+            <li><a href="#intro">Intro</a></li>
+            <li><a href="#grid-one">Test-manual</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#grid-two">Test-automatico</a></li>
+            <li><a href="#pricing">Mertio do Selenium</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+         </UL>
+       </nav>
+    </div>
+   </aside>  
+
+   <div class="menu-spacing"></div>
+
+   <section id="home" class=" intro main-bg section">
+     <div class="main-content intro-content">
+       <div class="O que é Selênio?">
+        <h2>O que é selênio e para que serve?</h2>
+        <p>Para começar, Selênio é uma ferramenta de código aberto disponível para automatizar os testes necessários a serem realizados nos navegadores baseados na web existentes. (Em palavras mais simples, ele testa os aplicativos da web usando qualquer navegador baseado na web, como Google Chrome, Mozilla Firefox, navegador Opera, Internet Explorer, MS Edge etc.)</p>
+       </div>
+       <div class="intro-img">
+       <img src="assets/img/javascript-not-optimized.svg" alt="logo de HTML;CSS E JS.">
+     </dir>
+    </section>
+
+   <section id= "intro" class="white-bg section">
+       <div class="main-content top3">
+           <h2>Requisito para teste de software</h2>
+           <p><br>
+            O teste de software é onde tudo se resume no final. Estamos vivendo em um mundo onde nossas vidas dependem totalmente das máquinas de uma forma ou de outra e a parte interessante é que o comportamento geral dessas máquinas é controlado e manipulado pelo software que está capacitando essas máquinas ou ferramentas.
+
+            Aqui é onde Teste de software entra em cena que verifica se as máquinas estão agindo exatamente como queremos que elas atuem e também verifica se a máquina está funcionando corretamente a cada hora e em todos os lugares também.Não importa o que você faça como provedor de serviços, o crescimento do seu negócio no final será controlado pela taxa de sucesso do seu aplicativo de software e aplicativo da web, porque a maioria dos negócios de hoje depende totalmente da Internet.</p><br>
+           <p>Deixe-me lhe dar um exemplo. A grande empresa de comércio eletrônico como Flipkart ou seja Myntra, eles dependem do tráfego dos usuários ou de seus clientes em seus sites e também do tráfego das mesmas pessoas em seus aplicativos móveis para o mesmo fim.
+
+            Agora imagine se algo impensável acontece como os preços de todos os produtos são zero e aconteceu por causa de um pequeno bug / defeito em uma parte do código que não é muito fácil de ler, então como a situação será corrigida e como a mesma situação será ser impedido da próxima vez?</p><br>
+           <p>A resposta mais simples é: Testando o código antes da implantação e esse é o requisito de testar o software também.
+
+            Agora, deixe-me esclarecer algo antes de discutirmos qualquer coisa, que existem duas maneiras de realizar testes de software: Manualmente e por Automação. O selênio foi projetado como um ferramenta de automação para cobrir as áreas que não foram possíveis cobrir com o teste manual, então a próxima parte deste blog discutirá as limitações do teste manual.</p>
+       </div>
+    </section>
+
+    <section id="grid-one" class="grid-one main-bg section">
+      <div class="main-content grid-one-content">
+
+       <h2 class="grid-main-heading">MANUAL TEST</h2>
+       <p class="grid-description">Limitações de teste manual</p>
+     <div class="grid">
+       <article>
+           <h3>Teste manual</h3>
+        <p>O teste manual refere-se ao processo de teste dos aplicativos da web, procurando e usando as funções e recursos de um aplicativo da web como um usuário final e, em seguida, certifique-se de que o aplicativo é útil e está funcionando de acordo com o requisito. Neste método, um testador de QA conduz todos os testes no software / aplicativo seguindo os conjuntos predefinidos de casos de teste e também mantém os registros de todas as taxas de sucesso ou falha de todas essas transações.</p><br>
+       </article>
+
+       <article>
+         <h3>Teste de automação </h3>
+       <p>O teste de automação é sempre uma escolha melhor do que o teste manual. A razão é muito simples. Esta abordagem é mais rápida, requer baixo investimento em colocar recursos humanos para uma única tarefa em comparação com a abordagem manual, executar os mesmos casos de teste repetidamente em massa é muito mais fácil, torna o teste de regressão e o teste funcional mais eficazes e é a abordagem mais preferida para detectar erros / bugs. 
+
+        Além disso, todos esses testes podem ser realizados de forma que antes de liberar o produto para uso, seja possível confirmar que o produto / aplicativo da web oferece suporte a diferentes ambientes e navegadores da web.</p><br>
+    </article>
+    <article>
+        <h3>Limitações de teste manual </h3>
+      <p>O teste manual refere-se ao processo de teste dos aplicativos da web, procurando e usando as funções e recursos de um aplicativo da web como um usuário final e, em seguida, certifique-se de que o aplicativo é útil e está funcionando de acordo com o requisito. Neste método, um testador de QA conduz todos os testes no software / aplicativo seguindo os conjuntos predefinidos de casos de teste e também mantém os registros de todas as taxas de sucesso ou falha de todas essas transações.
+
+        Os desafios que um testador de QA enfrenta ao verificar manualmente as transações registradas podem causar fadiga, tédio, atrasos desnecessários no trabalho, erros e erros devido à abordagem manual, etc.
+        
+        É por isso que essas razões resultaram na invenção do selênio que conhecemos hoje.</p><br>
+   </article>
+      </div>
+    </div>
+  </section>
+  <section id="gallery" class="grid-one white-bg section">
+    <div class="main-content grid-one-content">
+
+     <h3 class="grid-main-heading">GALLERY</h3>
+     <p class="grid-description">Imagens from unplash.</p>
+
+    <div class="grid">
+    <div class="gallery-img">
+        <img src="http://source.unsplash.com/random/360x360"alt="random image from unplash"/>
+    </div>
+        <div class="gallery-img">
+         <img src="http://source.unsplash.com/random/360x360?1=2"alt="random image from unplash"/>
+        </div>
+        <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?2=3"alt="random image from unplash"/>
+        </div>
+        <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?3=4"alt="random image from unplash"/>
+        </div>
+        <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?89=4"alt="random image from unplash"/>
+        </div>
+        <div class="gallery-img">
+            <img src="http://source.unsplash.com/random/360x360?51=7"alt="random image from unplash"/>
+        </div>
+       </div>
+     </div>
+</section>
+
+<section id="grid-two" class="grid-two main-bg section">
+    <div class="main-content grid-one-content">
+
+     <h2 class="grid-main-heading">AUTOMATIC TEST</h2>
+     <p class="grid-description">Uma breve descrição.</p>
+   <div class="grid">
+     <article>
+         <h3>Beneficos e vantagen de usar o selenium </h3>
+      <p>O Analista de Qualidade pode usar qualquer uma dessas plataformas de programação para escrever os scripts de teste: C #, PHP, .NET, Java, Python, Ruby e Perl.
+        Você pode realizar o teste não apenas em um sistema operacional, mas também no Windows, Mac ou Linux.
+        Você pode usar diferentes navegadores para realizar as tarefas: Mozilla Firefox, Google Chrome, Internet Explorer, Opera e Safari.
+        As ferramentas como TestNG e Junit podem ser integradas ao Selenium para gerar os relatórios e gerenciar os casos de teste.
+        Maven, Jenkins e Docker também podem ser integrados ao Selenium para realizar testes contínuos.</p><br>
+     </article>
+     <article>
+       <h3>As desvantagens do Selênio </h3>
+     <p>O primeiro e mais importante nesta categoria é o fato de que você pode usar Selenium apenas para testar os aplicativos da web e não para testar os aplicativos de desktop ou qualquer outro software.
+        No momento, não há suporte de produto dedicado para os usuários do Selenium. Eles têm que contar com as comunidades de usuários online para compartilhar os problemas com eles ou para encontrar soluções para os mesmos.
+        Se você quiser testar uma imagem via Selenium, ficará desapontado. Para realizar o teste baseado em imagem, você primeiro terá que integrar o Selenium com o Sikuli (para informações detalhadas sobre o Sikuli, você pode acessar site.</p><br>
+  </article>
+
+  <article>
+      <h3>Mas você pode integrar o Selenium </h3>
+    <p>Selênio não está equipado com o recurso de relatório nativo, mas se for necessário, você pode integrar o Selenium com TestNG ou JUnit para resolver esse problema.
+        Antes de prosseguirmos, acho que devemos primeiro saber por que o selênio foi necessário em primeiro lugar ou por que o selênio se tornou o que é hoje. Então, junte-se à jornada na seguinte ordem:
+        
+        O requisito para teste de software
+        Limitações de teste manual
+        O teste de automação é melhor do que o teste manual?
+        Selênio v / s outras ferramentas de teste disponíveis
+        Conjunto de ferramentas Selenium</p><br>
+ </article>
+    </div>
+  </div>
+</section>
+<section id= "pricing" class="white-bg section">
+    <div class="main-content top3">
+        <h2>Méritos do Selenium WebDriver</h2><br>
+        <p>Abaixo estão algumas vantagens / méritos de usar Selenium WebDriver:
+
+            Capaz de realizar testes em vários navegadores, pois suporta navegadores como: Firefox, Chrome, IE etc.
+            Capaz de realizar testes em vários sistemas operacionais como Windows, Mac, Linux, Android, iOS etc.
+            Compatível com 7 plataformas de programação diferentes como JAVA, PHP, Ruby, Perl, Python, C # e .Net.
+            Resolvidos os problemas com Selenium V1, como barreira de diálogos, pop-ups, download de arquivo, upload de arquivo etc.</p><br>
+        <p>Deméritos do Selenium WebDriver
+            Abaixo estão os principais desafios que surgiram com o Selenium WebDriver:
+            
+            Gerar relatórios de teste detalhados é exaustivo e quase impossível.
+            Você não pode testar as imagens com Selenium WebDriver.
+            Embora esses desafios possam ser resolvidos, para fazer isso você precisa integrá-lo com as outras estruturas disponíveis como Skuli, que é usado para testar as imagens e TestNG, que é usado para gerar os resultados / relatórios de teste de forma detalhada.
+            
+            </p><br>
+
+            <div class="responsive-table">
+        <table>
+            <caption>Pricing table</caption>
+
+            <thead>
+                <tr>
+                <th>Title 1</th>
+                <th>Title 2</th>
+                <th>Title 3</th>
+                <th>Title 4</th>
+                <th>Title 5</th>
+                
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                </tr>
+
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                </tr>
+
+                <tr>
+                    <td>content 1</td>
+                    <td>content 2</td>
+                    <td>content 3</td>
+                    <td>content 4</td>
+                    <td>content 5</td>
+                </tr>
+            </tbody>
+
+            <tfoot>
+                <tr>
+                    <td></td>
+                    <td></td>
+                    <td>Teste</td>
+                </tr>
+            </tfoot>
+        </table>
+      </div>
+    </div>
+ </section>
+
+ <section id="contact" class=" intro main-bg section">
+    <div class="main-content intro-content">
+      <div class="intro-text-content">
+       <h2>Ewerton Martins da Silva</h2>
+       <p>Analista de testes Júnior | Test Analyst | QA | Testes | Testes de Software |<br>
+        Atualmente estudadndo JavaScript <br>
+        entendo que a melhor maneira de se tornar bom, independente da linguagem de programação que estiver estudando é praticar.</p>
+      </div>
+      <div class="intro-img">
+      <img src="assets/img/javascript-not-optimized.svg" alt="logo de HTML;CSS E JS.">
+    </div>
+     <div class="contact-form">
+        <fieldset class="form-grid">
+            <legend>Contact me</legend>
+
+            <div class="form-group">
+                <label for="firt-name">First Name</label>
+                <input type="text"
+                name="firt-name"
+                id="firt-name" placeholder="Your name">
+            </div>
+
+            <div class="form-group">
+                <label for="last-name">Last Name</label>
+                <input type="text"
+                name="last-name"
+                id="last-name" placeholder="Your last name">
+            </div>
+
+            <div class="form-group">
+                <label for="email">E-Mail</label>
+                <input type="email"
+                name="email"
+                id="email"placeholder="Your email">
+            </div>
+
+            <div class="form-group full-width">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" cols="30" rows="10"></textarea >
+            </div>
+
+            <div class="form-group full-width">
+                <button type="submit">Send message</button>
+            </div>
+        </fieldset>
+    </div>
+   </div>
+  </section>
+
+  <footer id="footer"class="footer white-bg">
+      <p> <a href="">Feito com <samp class="heart">❤</samp>
+         por EwertondaMax</p>
+  </footer>
+
+  <a class="back-to-top" href="#">➤</a>
+</body>
+
+</html>
